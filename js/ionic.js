@@ -4175,7 +4175,7 @@ function keyboardShow() {
     //console.log("elementBottom: " + details.elementBottom);
 
     // send event so the scroll view adjusts
-    ionic.trigger('scrollChildIntoView', details, true);
+    // ionic.trigger('scrollChildIntoView', details, true);
   }
 
   setTimeout(function(){
